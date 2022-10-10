@@ -1,0 +1,62 @@
+<html><head>
+<title>ХостиЯ. Ошибка 404</title>
+<meta charset="windows-1251">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+<style>
+* { font-family: Open Sans; font-size: 16px; color:#333; }
+.zag {
+display: inline;
+font-size: 278px;
+font-weight: bold;
+text-align: center;
+color: #fff;
+background: #97c2ef;
+border-radius: 20px;
+padding: 0px 28px;
+border: 3px #4c85c1 solid;
+}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a {color:#03A9F4;}
+.zag2 { font-size: 63px; margin-top:0px;   color:#455a64;  display: block;    font-weight: bold;
+    text-align: center;}
+b { font-weight: bold; font-size: 19px;}
+td { padding: 5;}
+li { list-style: disc; margin:10px 0 0 19px; color:#ffc107; }
+li span {
+font-size: 16px;color:#828282;
+}
+ul { font-size: 21px;color:#333;display: inline-block; }
+.span1 { font-size: 15px;color:#828282;display: block;margin-left:19px; }
+.div {    text-align: left;
+    display: inline-block;}
+</style>
+</head>
+<body topmargin="0" marginwidth="0" marginheight="0" leftmargin="0" bgcolor="#ffffff">
+<center>
+<table style="border: 0px solid #c4c4c4;border-radius: 46px;padding: 30px;" width="1200px">
+<tbody>
+<tr><td> <center>Хостинг Сайтов <a href="https://hostia.ru/" target="_top">«ХостиЯ»</a> 
+<br><br>
+<br><div class="zag">404</div></center><br><div class="zag2">Страница не найдена</div>
+</td></tr>
+<tr><td align="center">
+<div class="div"><br>
+<ul>Запрашиваемый URL не найден на этом сайте.<br>
+<li><span>Возможно страница была удалена с сайта ; </span></li>
+<li><span>Возможно была допущена ошибка при вводе URL адреса страницы ;
+</span></li>
+</ul>
+  </div>
+<br>
+<br>
+<hr class="style-six">
+</td></tr>
+<tr><td><center>Служба <a href="https://hostia.ru/sluzhba_podderzhky_hostinga.html">поддержки</a> / Хостинг Сайтов <a href="https://hostia.ru/" target="_top">«ХостиЯ»</a> </center>
+</td></tr>
+</tbody></table>
+</center></body></html>
