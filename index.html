@@ -4,12 +4,13 @@
 
 <head >
 <meta name="keywords" content="atarovart, atarovart.ru, фотограф, фотограф Новосибирск">
-  <header style="text-align: center">
-      <a class="atarovart" href="index.html" >atarovART</a>
-      <a class="headr" href="#aboutme" style="margin-right: 148px; margin-left: 820px;">Обо мне</a>
-      <a class="headr" href="#chapter2" style="margin-right: 148px;">Портфолио</a>
-      <a class="headr" href="#chapter3" style="margin-right: 100px;">Контакты</a>
-
+  <header class="navbar" >
+      <a class="atarovart" href="index.html" style="margin-right: 200px;" >atarovART</a>
+      <nav class="navbar-menu">
+      <a class="headr" href="#aboutme" >Обо мне</a>
+      <a class="headr" href="#chapter2" style="margin-right: 148px; margin-left: 148px;">Портфолио</a>
+      <a class="headr" href="#chapter3" >Контакты</a>
+    </nav>
     </header>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -80,8 +81,11 @@ position:relative;
     font-size: 20pt;
     color: #ffffff;
 /* для сдвига элемента вверх на 10px */
-    top: 34px; /* или bottom: 10px; */
+   /* или bottom: 10px; */
 /* для сдвига элемента вниз на 10px */
+
+   
+
    }
 .process {
 	font-size: 32px;
@@ -93,17 +97,13 @@ background-color: #c3d8fa;
 padding-right: 10px;
 
 }
+
+
    #aboutme{
     position: relative;
+   
    }
-   .atarovart{
-    font-family: Inter Regular;
-    text-decoration: none;
-    font-size: 20pt;
-    color: #ffffff;
-    position: relative;
-    top: 34px;
-   }
+   
 p {
     font-family: Inter;
     font-size: 18pt; /* Размер шрифта в пунктах */ 
@@ -135,13 +135,44 @@ p {
     padding-top: 10px;
     text-align: center;
 color:rgb(0, 0, 0);
+ 
+ 
    }
+   
+   .navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 104px;
+    padding: 0 20px ;
+    background: rgba(0, 0, 0, 0.388);
+   }
+   .atarovart{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter Regular;
+    text-decoration: none;
+    font-size: 20pt;
+    color: #ffffff;
+    
+   }
+   .navbar-menu {
+    margin-right: 148px; margin-left: 1080px;
+   }
+ 
    a {
     
    font-family: Inter Regular;
   color: #000000;
     text-decoration: none;
-    text-align: center;  
+ 
    }
 a:active{
  color: #c7c7c7;
@@ -212,16 +243,10 @@ color:rgb(0, 0, 0);
     color: #fff;
    }
    header {
-  
-      margin-top: -10px;
-      margin-left: -10px;
-      margin-right: -10px;
-      display: block;
-    height: 104px; /* Высота шапки */
-    width: 100%;
-    background: rgba(0, 0, 0, 0.288);
-z-index: 1;
-}
+    display: block;
+   text-align: center;
+   align-items: center;
+   }
 
 
 #myBtn {
@@ -234,11 +259,16 @@ z-index: 1;
 padding: 10px;
   cursor: pointer; /* Add a mouse pointer on hover */
  transition: 0.3s;
-
+ 
 }
+
+
 #myBtn:hover {
+  transition: 0.3s;
 background-color: rgba(0, 0, 0, 0.288);
 }
+
+
   </style>
   <script>
   
@@ -261,5 +291,6 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+  
   </script>
 </html>
