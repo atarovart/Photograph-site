@@ -22,32 +22,31 @@
 <button onclick="topFunction()" id="myBtn" title="Наверх"><svg width="32px" height="32px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M7.5 3L15 11H0L7.5 3Z" fill="black"/>
   </svg></button>
-     <div id="aboutme" style=" border: 0 px;width:1000px; margin:0 auto;  margin-top: 850px; padding-top: 10%; text-align:left;">
-      <table width="1000" border="0" cellspacing="0" style="margin: 0 auto;">
-        <col width="650" valign="top">
+ <div class="am" style="margin: 0 auto;">
+  <div id="aboutme" style=" margin:0 auto;  margin-top: 860px;  padding-top: 20%; ">
+<h1 style="margin-bottom: 80px;">ОБО МНЕ</h1><p1>Меня зовут Артур, я фотограф. Снимаю портреты, стрит фото 
+  и субъективную фотографию. Ловлю ваши эмоции и вижу вашу красоту, буду ждать нашу с вами встречу на фотосессии. </p1><br><br><br><br><br>   </div>
+          <div class="aboutmeph" style="margin-left: 20px;"><img src="photo6.png";  width="386"; height="379"; >   
+          
+        
        
-        <tr>
-         <td > <h1>Обо мне</h1><br><br></be><p1>Меня зовут Артур, я фотограф из <br>
-          Новосибирска. Снимаю портреты, стрит <br>
-          фото и субъективную фотографию. Ловлю <br>
-          ваши эмоции и вижу вашу красоту, буду <br>
-          ждать нашу с вами встречу на <br>фотосессии. </p1>
-         </td>
-         <td><img src="photo6.png"; width="400"; height="400"; align="right"; vspace="5"; hspace="5"> 
-         </td>
-        </tr>
-       </table>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <h2 id="chapter2"><br><br><br></h2>
-  <p>
-  
-  <br><br>
-  <a href="https://drive.google.com/drive/folders/1ou7-5nsPL1XHVIBqqf2nUc0Q5ukJUduW?usp=sharing" target="_blank">Все примеры работ</a>
-</p>
-</div>
-  <br><br><br>
-<h3 class="process">Сайт в разработке!</h3>
+
+
+</div></div>
+<div id="chapter2" style="margin:0 auto;  padding-top: 180px; ">
+  <table width="996"  border="0" cellspacing="20" style="margin: 0 auto;">
+    <tr><td> <h1 style="  margin:0 auto; margin-bottom: 80px; text-align:right;">ПОРТФОЛИО</h1></td></tr>
+    <tr><td><img src="photo3.JPG"; width="390"; height="560"; align="left"></td></tr>
+  </table><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+
+
+
+
+
+<!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ <h3 class="process">Сайт в разработке!</h3>
 <br><br><br>
 
 <h3 id="chapter3">Мои контакты</h3>
@@ -72,7 +71,7 @@
 
 </div>
 </h3>
-<br><br><br>
+<br><br><br>-->
 </body>
 <style>
      
@@ -107,42 +106,52 @@ padding-right: 10px;
 
 }
 
+.am {
+  display: block;
+  
+  width: 1040px;
+  left: 50%;
+  margin-left: -520px;
+}
 
    #aboutme{
     position: relative;
-   
+   display: inline-block;
+width: 614px  ;
+
    }
-   
+   .aboutmeph{
+    position: relative;
+    display: inline-block;
+ 
+   }
 p {
     font-family: Inter;
-    font-size: 18pt; /* Размер шрифта в пунктах */ 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 18px; /* Размер шрифта в пунктах */ 
+
     text-align: center;
  
    }
    p1 {
     font-family: Inter Regular;
-    font-size: 20pt; /* Размер шрифта в пунктах */ 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 28px; /* Размер шрифта в пунктах */ 
     color:rgb(0, 0, 0);
  text-align: center;
 
    }
+   thead {
+    text-align: right;
+   }
    h1 {
     font-family: Inter Medium;
-    font-size: 40pt; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 40px; 
 
     color:rgb(0, 0, 0);
 
    }
    h2 {
     font-family: Inter Medium;
-    padding-top: 10px;
-    text-align: center;
+   
 color:rgb(0, 0, 0);
  
  
@@ -150,30 +159,36 @@ color:rgb(0, 0, 0);
    
    .navbar {
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
+    display: block;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
     height: 104px;
-    padding: 0 20px ;
+ 
     background: rgba(0, 0, 0, 0.388);
+    overflow: hidden;
    }
    .atarovart{
     display: flex;
     position: fixed;
     align-items: center;
     gap: 12px;
+    margin-top: 38px;
+    width: 200px;
+    left: 50%;
+    margin-left: -920px;
     font-family: Inter Regular;
     text-decoration: none;
-    font-size: 20pt;
+    font-size: 28px;
     color: #ffffff;
     
    }
    .navbar-menu {
-    margin-right: 148px; margin-left: 1080px;
+    margin-left: 1000px;
+    margin-top: 38px;
    }
  
    a {
